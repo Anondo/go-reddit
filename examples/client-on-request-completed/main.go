@@ -6,7 +6,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/vartanbeno/go-reddit/v2/reddit"
+	"github.com/Anondo/go-reddit/reddit"
 )
 
 var ctx = context.Background()
