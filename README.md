@@ -45,7 +45,7 @@ Make sure to have a Reddit app with a valid client id and secret. [Here](https:/
 ```go
 package main
 
-import "github.com/Anondo/go-reddit/reddit"
+import "github.com/Anondo/go-reddit/v2/reddit"
 
 func main() {
     credentials := reddit.Credentials{ID: "id", Secret: "secret", Username: "username", Password: "password"}
